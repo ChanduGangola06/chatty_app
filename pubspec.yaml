@@ -1,0 +1,57 @@
+name: chat_app
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  get: ^4.6.6
+  intl: ^0.19.0
+  figma_squircle: ^0.5.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: gilroy_black
+      fonts:
+        - asset: assets/fonts/Gilroy-Black.ttf
+    - family: gilroy_bold
+      fonts:
+        - asset: assets/fonts/Gilroy-Bold.ttf
+    - family: gilroy_extrabold
+      fonts:
+        - asset: assets/fonts/Gilroy-ExtraBold.ttf
+    - family: gilroy_heavy
+      fonts:
+        - asset: assets/fonts/Gilroy-Heavy.ttf
+    - family: gilroy_light
+      fonts:
+        - asset: assets/fonts/Gilroy-Light.ttf
+    - family: gilroy_medium
+      fonts:
+        - asset: assets/fonts/Gilroy-Medium.ttf
+    - family: gilroy_regular
+      fonts:
+        - asset: assets/fonts/Gilroy-Regular.ttf
+    - family: gilroy_semibold
+      fonts:
+        - asset: assets/fonts/Gilroy-SemiBold.ttf
+    - family: gilroy_thin
+      fonts:
+        - asset: assets/fonts/Gilroy-Thin.ttf
